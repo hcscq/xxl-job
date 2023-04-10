@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk8-openj9
+FROM ibm-semeru-runtimes/open-8-jdk-focal
 MAINTAINER xuxueli
 
 ENV PARAMS=""
