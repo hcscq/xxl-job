@@ -1,4 +1,4 @@
-FROM ibm-semeru-runtimes/open-8-jre-focal
+FROM ibm-semeru-runtimes:open-8-jre-focal
 MAINTAINER xuxueli
 
 ENV PARAMS=""
