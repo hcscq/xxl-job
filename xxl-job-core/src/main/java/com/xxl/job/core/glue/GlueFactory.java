@@ -44,7 +44,7 @@ public class GlueFactory {
 	 * @throws Exception
 	 */
 	public IJobHandler loadNewInstance(String codeSource) throws Exception{
-		if (codeSource!=null && codeSource.trim().length()>0) {
+		if (codeSource!=null && !codeSource.trim().isEmpty()) {
 			Class<?> clazz = getCodeSourceClass(codeSource);
 			if (clazz != null) {
 				Object instance = clazz.newInstance();
